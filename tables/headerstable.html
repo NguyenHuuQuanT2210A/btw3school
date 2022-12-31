@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <style >
+            /*tr:nth-child(odd){
+                background-color: ;
+            }
+            th:nth-child(odd), td:nth-child(odd){
+                background-color: ;
+            }*/
+            table{
+                border-spacing: 5px;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            th, td {
+                text-align: left;
+                color: brown;
+                border-collapse: collapse;
+                border-color: blue;
+                padding: 10px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        </style>
+    <table style="width: 100%;">
+        <caption>Ten tuoi</caption>
+        <colgroup>
+            <col span="1">
+            <col span="2" style="background-color: #D6EEEE;"
+        </colgroup>
+        <tr>
+            <th>First name</th>
+            <td colspan="2">Jill, Eve</td>
+        </tr>
+        <tr>
+            <th rowspan="1">Last name</th>
+            <td>Smith</td>
+            <td>Jackson</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>94</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <th>Class</th>
+            <td>1a</td>
+            <td>2b</td>
+        </tr>
+    </table>
+</body>
+</html>
